@@ -31,7 +31,7 @@ public class Main {
 
             }
             //unlock account
-            RPC.unlock_rpc_call();
+//            RPC.unlock_rpc_call();
             for (Holder h:holders) {
                 RPC.tranfer_rpc_call(h.getName(), Double.toString(h.getNew_balance()));
             }

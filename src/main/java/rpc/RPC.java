@@ -18,7 +18,7 @@ public class RPC {
     private final static String ID = "id";
     private final static String METHOD = "method";
     private final static String PARAMS = "params";
-    private final static String BROADCAST = "false";
+    private final static String BROADCAST = "true";
     private final static String RPCVERSION = "2.0";
     private final static String _METHOD = "transfer";
     private final static String FROM = "bitcoinlatinadummy1";
